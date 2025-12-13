@@ -110,16 +110,29 @@ div.text_first {
 
 table.one {
   border: 1px solid rgb(4, 9, 51);
-  width: 1100px;
-  height: 400px;
+  width: 1200px;
+  height: 350px;
   background-color: #eeece5;
   border-collapse: collapse;
-  font-size: 40px;
 
   td {
     border: 10px solid rgb(4, 9, 51);
+  }
+  span,
+  p {
     color: rgb(4, 9, 51);
+    display: flex;
+    justify-content: center;
     text-align: center;
+  }
+  p {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  span {
+    font-weight: 600;
+    font-family: "Libre Baskerville", serif;
+    font-size: 35px;
   }
 }
 
@@ -133,6 +146,7 @@ div.table_one {
     margin-top: 40px;
     margin-bottom: 30px;
     font-size: 30px;
+    font-family: "Libre Baskerville", serif;
   }
 }
 
