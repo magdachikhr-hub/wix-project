@@ -148,3 +148,16 @@ img.car {
   width: 380px;
   height: 375px;
 }
+
+.container_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 230px;
+  margin-top: 80px;
+
+  p {
+    width: 378px;
+    height: 124px;
+  }
+}
