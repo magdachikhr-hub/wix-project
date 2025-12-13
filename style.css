@@ -59,14 +59,20 @@ nav {
 }
 
 .background {
-  background-image: url(./imgg.avif);
+  background-image: url(./img/imgg.avif);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 1500px;
+  width: 1000px;
   height: 800px;
   background-attachment: fixed;
+  background-position: right center;
 }
 
 main {
   height: 2000px;
+}
+
+img.women {
+  width: 246px;
+  height: 340px;
 }
